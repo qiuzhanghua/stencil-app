@@ -1,7 +1,7 @@
 {
   "name": "stencil-app",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "module": "www/index.html",
   "description": "Stencil App Starter",
   "scripts": {
@@ -29,6 +29,8 @@
     "jest": "^27.4.5",
     "jest-cli": "^27.4.5",
     "puppeteer": "^19.10.0",
+    "stencil-tailwind-plugin": "^1.7.0",
+    "tailwindcss": "^3.3.1",
     "typescript": "5.0.4"
   },
   "license": "MIT"
