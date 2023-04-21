@@ -1,0 +1,35 @@
+{
+  "name": "stencil-app",
+  "private": true,
+  "version": "0.0.1",
+  "module": "www/index.html",
+  "description": "Stencil App Starter",
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate",
+    "lint": "eslint src/**/*{.ts,.tsx}",
+    "format": "prettier-eslint \"src/**/*.ts\" \"src/**/*.tsx\" --write"
+  },
+  "devDependencies": {
+    "@stencil-community/eslint-plugin": "^0.5.0",
+    "@stencil-community/router": "^1.0.2",
+    "@stencil/core": "^3.2.1",
+    "@types/jest": "^27.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^34.0.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "prettier": "^2.8.7",
+    "prettier-eslint-cli": "^7.1.0",
+    "jest": "^27.4.5",
+    "jest-cli": "^27.4.5",
+    "puppeteer": "^19.10.0",
+    "typescript": "5.0.4"
+  },
+  "license": "MIT"
+}
